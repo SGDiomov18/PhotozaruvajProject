@@ -195,7 +195,7 @@ input{
     opacity: 0.1;
     border-color: #c5c4c4;
     margin: auto;
-    animation: TopLineAnimation 1s ease-in-out forwards;
+    animation: TopLineAnimation 1.2s ease-in-out forwards;
 
 }
 
@@ -206,7 +206,7 @@ input{
     opacity: 0.1;
     border-color: #c5c4c4;
     margin:auto;
-    animation: BottomLineAnimation 1s ease-in-out forwards;
+    animation: BottomLineAnimation 1.2s ease-in-out forwards;
 }
 
 @keyframes TopLineAnimation {
@@ -250,8 +250,6 @@ input{
     cursor: pointer;
     position: relative;
     text-align: center;
-
-
 
 }
 
@@ -334,6 +332,11 @@ button{
     opacity: 1;
 
 }
+
+.ButtonDiscord{
+    visibility: hidden;
+}
+
 
 
 @keyframes cardAnimation {
