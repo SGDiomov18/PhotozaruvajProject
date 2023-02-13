@@ -243,10 +243,10 @@ input{
 
 .card{
     height: 200px;
-    width: 400px;
+    width: 350px;
     background-color: rgba(255,255,255, 0.02);
     border: 1px solid rgba(255,255,255, 0.05);
-    border-radius: 10px;
+    border-radius: 40px;
     cursor: pointer;
     position: relative;
     text-align: center;
@@ -266,10 +266,10 @@ input{
 
 button{
     height: 200px;
-    width: 400px;
+    width: 350px;
     background-color: rgba(255,255,255, 0.009);
     border: 1px solid rgba(255,255,255, 0.05);
-    border-radius: 10px;
+    border-radius: 40px;
     cursor: pointer;
     position: relative;
     text-align: center;
@@ -333,6 +333,22 @@ button{
 
 }
 
+
+.card:hover
+.gitHub {
+    animation: imgAnimation 0.7s forwards;
+}
+
+.card:hover
+.gitHub {
+    animation: imgAnimation 0.7s forwards;
+}
+
+.card:hover
+.gitHub {
+    animation: imgAnimation 0.7s forwards;
+}
+
 .ButtonDiscord{
     visibility: hidden;
 }
@@ -354,27 +370,34 @@ button{
     }
 
 }
-.gitHub:hover{
-    animation: imgAnimation 0.7s forwards;
 
-}
-.faceBook:hover{
+.card:hover
+.gitHub {
     animation: imgAnimation 0.7s forwards;
 }
 
-.linkedIn:hover{
+.card:hover
+.faceBook{
+    animation: imgAnimation 0.7s forwards;
+}
+
+.card:hover
+.linkedIn{
     animation: imgAnimation2 0.8s;
 }
-
-.instaGram:hover{
+.card:hover
+.instaGram{
     animation: imgAnimation3 0.9s;
 }
 
-.eMail:hover{
+.card:hover
+.eMail{
     animation: imgAnimation4 0.7s forwards;
 }
 
-.disCord:hover{
+
+.card:hover
+.disCord{
     animation: imgAnimation4 0.7s forwards;
 }
 
@@ -448,7 +471,6 @@ button{
     }
 
 }
-
 
 
 
